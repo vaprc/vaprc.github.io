@@ -64,11 +64,11 @@
 
 /* Making the header responsive. */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 890px) {
 
 	.header-basic-light {
 		padding: 20px 0;
-		height: 85px;
+		height: 125px;
 	}
 
 	.header-basic-light .header-limiter h1 {
