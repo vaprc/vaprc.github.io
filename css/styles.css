@@ -150,10 +150,15 @@ ol {
 	max-width: 90%;
 	margin: auto;
 }
+@media all and (min-width: 1333px) {
+	.center-section
+	{
+		max-width: 1200px;
+	}
+}
 @media all and (max-width: 890px) {
 	.center-section
 	{
 		max-width: 100%;
-		background: #FAFAFA;
 	}
 }
