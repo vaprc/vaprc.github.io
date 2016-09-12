@@ -79,11 +79,13 @@ margin-left:132px;}
 .container_slick
 {
 width:auto;
+max-width: 1200px
 margin: 0 auto;
 position:relative;}
 .container
 {
 width:auto;
+max-width: 1200px
 margin-top: 20px;
 position:relative;}
 
@@ -108,13 +110,27 @@ clip: rect(1px, 1px, 1px, 1px);}
 }
 .content
 {
-	margin-top: 12px;
-	margin-bottom: 12px;
-	max-width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 2px solid #00297b;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.content_slick
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.content_map
+{
+	max-width: 75%;
 	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .content h2
 {
+	padding-top: 12px;
 	font-size: 22px;
 	font-weight: bold;
 	color: #000;
@@ -127,4 +143,17 @@ ol {
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
+}
+.center-section
+{
+	background: #FAFAFA;
+	max-width: 90%;
+	margin: auto;
+}
+@media all and (max-width: 890px) {
+	.center-section
+	{
+		background: #FAFAFA;
+			margin: auto;
+	}
 }
