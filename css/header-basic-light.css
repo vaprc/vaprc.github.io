@@ -4,11 +4,6 @@
 	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 	height: 85px;
 	background-color: #fff;
-	z-index: 10000;
-	position: fixed;
-    top: 0;
-	border-top: 5px solid #00297b;
-	width: 90%;
 }
 
 .header-basic-light .header-limiter {
@@ -99,6 +94,13 @@
 
 }
 
+@media all and (max-width: 400px) {
+
+	.header-basic-light {
+		padding: 20px 0;
+		height: 160px;
+		width: 100%;
+	}
 /* For the headers to look good, be sure to reset the margin and padding of the body */
 
 body {
