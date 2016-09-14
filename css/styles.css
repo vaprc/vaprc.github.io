@@ -81,7 +81,7 @@ width:auto;
 max-width: 1200px;
 margin: 0 auto;
 position:relative;
-margin-top: 80px;}
+}
 .container
 {
 width:auto;
@@ -125,6 +125,11 @@ clip: rect(1px, 1px, 1px, 1px);}
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.results_table
+{
+	max-width: 90%;
+	margin: auto;
+}
 .content h2
 {
 	padding-top: 12px;
@@ -155,10 +160,6 @@ ol {
 	{
 		max-width: 1200px;
 	}
-		.container_slick
-	{
-		margin-top: 80px;
-	}
 }
 /*For screens below 960px set the max width of header and content to the entire view*/
 @media all and (max-width: 960px) {
@@ -166,10 +167,7 @@ ol {
 	{
 		max-width: 100%;
 	}
-	.container_slick
-	{
-	margin-top: 120px;
-	}
+
 }
 
 a {
