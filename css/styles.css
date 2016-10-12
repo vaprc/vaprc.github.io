@@ -149,9 +149,10 @@ ol {
 }
 .center-section
 {
-	background: #FAFAFA;
+	background: #EAEAFA;
 	max-width: 90%;
 	margin: auto;
+		box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 }
 
 /*For screens above 1333px set the max width of header and content to 1200px.*/
