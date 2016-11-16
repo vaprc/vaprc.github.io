@@ -143,7 +143,7 @@ clip: rect(1px, 1px, 1px, 1px);}
 	font-weight: bold;
 	color: #00297b;
 	border-bottom: 2px solid #00297b;
-	width: 25%;
+	width: 275px;
 }
 
 ol {
@@ -207,7 +207,7 @@ li{
 	padding-top: 8px;
 	margin-top: 0px;
 	color: #EEEEEE;
-	height: 50px;
+	min-height: 50px;
 	background: #00297b;
 }
 
