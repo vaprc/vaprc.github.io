@@ -13,7 +13,7 @@ padding: 7px;
 outline: 0;
 border:0;
 width:250px;
-background: #EBE8DE;
+background: #ECECDE;
 border-radius:5px;}
 
 input[type=submit]
@@ -29,7 +29,7 @@ color: #fff;}
 
 p
 {
-margin: 5px 0;
+margin: 10px 0;
 line-height: 25px;}
 
 a
@@ -85,8 +85,8 @@ position:relative;
 .container
 {
 width:auto;
-max-width: 1200px
-margin-top: 20px;
+max-width: 1200px;
+
 position:relative;}
 
 .clear
@@ -107,9 +107,8 @@ clip: rect(1px, 1px, 1px, 1px);}
 
 .content
 {
-	padding-top: 20px;
-	padding-bottom: 25px;
-	border-bottom: 2px solid #00297b;
+	padding-bottom: 10px;
+	/*border-bottom: 2px solid #00297b;*/
 	padding-left: 16px;
 	padding-right: 16px;
 }
@@ -139,9 +138,12 @@ clip: rect(1px, 1px, 1px, 1px);}
 .content h2
 {
 	padding-top: 12px;
+	padding-bottom: 5px;
 	font-size: 22px;
 	font-weight: bold;
 	color: #00297b;
+	border-bottom: 2px solid #00297b;
+	width: 25%;
 }
 
 ol {
@@ -155,10 +157,10 @@ ol {
 }
 .center-section
 {
-	background: #EAEAEA;
+	background: #FAFAFA;
 	max-width: 90%;
 	margin: auto;
-		box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
 }
 
 /*For screens above 1333px set the max width of header and content to 1200px.*/
@@ -174,7 +176,6 @@ ol {
 	{
 		max-width: 100%;
 	}
-
 }
 
 a {
@@ -196,4 +197,20 @@ li{
 	padding-top: 2px;
 	padding-bottom: 6px;
 	
+}
+
+#contact{
+	border-bottom: 2px solid #00297b;
+}
+
+.footer{
+	padding-top: 8px;
+	margin-top: 0px;
+	color: #EEEEEE;
+	height: 50px;
+	background: #00297b;
+}
+
+.footer p{
+	margin-left: 16px;
 }
