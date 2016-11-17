@@ -209,6 +209,8 @@ li{
 	color: #EEEEEE;
 	min-height: 50px;
 	background: #00297b;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 }
 
 .footer p{
