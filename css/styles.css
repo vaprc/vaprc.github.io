@@ -218,3 +218,8 @@ li{
 .footer p{
 	margin-left: 16px;
 }
+
+.alert{
+	color:#CC2222;
+	font-weight:bold;
+}
