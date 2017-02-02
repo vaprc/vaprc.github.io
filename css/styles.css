@@ -130,6 +130,7 @@ clip: rect(1px, 1px, 1px, 1px);}
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
 .results_table
 {
 	max-width: 90%;
@@ -165,11 +166,23 @@ ol {
 	border-bottom-left-radius: 7px;
 }
 
+.content_form
+{
+	max-width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 /*For screens above 1333px set the max width of header and content to 1200px.*/
 @media all and (min-width: 1333px) {
 	.center-section
 	{
 		max-width: 1200px;
+	}
+	.content_form
+	{
+		max-width: 75%;
 	}
 }
 /*For screens below 960px set the max width of header and content to the entire view*/
@@ -177,6 +190,10 @@ ol {
 	.center-section
 	{
 		max-width: 100%;
+	}
+	.content_form
+	{
+		max-width: 95%;
 	}
 }
 
