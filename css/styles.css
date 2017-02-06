@@ -240,3 +240,8 @@ li{
 	color:#CC2222;
 	font-weight:bold;
 }
+
+video {
+  width: 100%    ;
+  height: auto   ;
+}
