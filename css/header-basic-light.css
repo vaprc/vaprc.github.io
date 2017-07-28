@@ -67,7 +67,7 @@
 
 /* Making the header responsive. */
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 850px) {
 
 	.header-basic-light {
 		padding: 20px 0;
