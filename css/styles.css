@@ -148,6 +148,14 @@ clip: rect(1px, 1px, 1px, 1px);}
 	width: 500px;
 }
 
+@media all and (max-width: 550px)
+{
+	.content h2
+	{
+		width: 95%;
+	}
+}
+
 ol {
     display: block;
     list-style-type: decimal;
